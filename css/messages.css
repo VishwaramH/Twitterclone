@@ -1,0 +1,57 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  height: 100vh;
+}
+
+.row {
+  margin: 0;
+}
+
+.main h1 {
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.message-search {
+  border-radius: 3rem;
+  background-color: var(--grey);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 2rem;
+  color: var(--greys);
+  width: 100%;
+}
+
+.message-search:focus {
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+}
+
+.search-bar {
+  padding: 1rem;
+  border-bottom: 1px solid var(--greys);
+}
+
+.message-body {
+  text-align: center;
+}

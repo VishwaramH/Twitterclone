@@ -1,0 +1,37 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.row {
+  margin: 0;
+}
+
+.main {
+  padding: 1rem;
+  height: 100vh;
+}
+
+.head {
+  border-bottom: 2px solid var(--grey);
+}
+
+.bookmark-body {
+  padding: 3rem;
+  text-align: center;
+}

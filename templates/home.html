@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home/Twitter</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- ** LEFT SIDEBAR ** -->
+    <aside class="navigation">
+
+      <!-- TOP -->
+      <div class="top">
+
+        <!-- Brand -->
+        <div class="brand">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul>
+            <li>
+              <a href="#" class="active">
+                <i class="fas fa-home"></i> <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="./explore.html">
+                <i class="fas fa-hashtag"></i> <span>Explore</span>
+              </a>
+            </li>
+            <li>
+              <a href="./notification.html">
+                <i class="far fa-bell"></i> <span>Notifications</span>
+              </a>
+            <li>
+              <a href="./messages.html">
+                <i class="fas fa-envelope"></i> <span>Messages</span>
+              </a>
+            </li>
+            <li>
+              <a href="./bookmarks.html">
+                <i class="far fa-bookmark"></i> <span>Bookmarks</span>
+              </a>
+            </li>
+            <li>
+              <a href="./lists.html">
+                <i class="fas fa-list"></i> <span>Lists</span>
+              </a>
+            </li>
+            <li>
+              <a href="./profile.html">
+                <i class="far fa-user"></i> <span>Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="./more.html">
+                <i class="far fa-comment-dots"></i> <span>More</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Tweet Button -->
+        <button class="btn btn--tweet">
+          <span>Tweet</span>
+          <i class="fa fa-comment"></i>
+        </button>
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="bottom">
+        <a href="#" class="profile-container">
+          <div class="profile">
+            <img src="../images/profile-avatar.png" alt="profile-avatar" />
+            <div class="profile__name">
+              <strong>Vichu_vishwa</strong>
+              <span>@Vichuvishwa5</span>
+            </div>
+          </div>
+          <div class="arrow"><i class="fas fa-angle-down"></i></div>
+        </a>
+      </div>
+    </aside>
+
+    <!-- ** MAIN ** -->
+    <div class="main">
+
+      <div class="main-header">
+        <span>
+          <a href="#">Home</a>
+        </span>
+        <span>
+          <a href="#" class="hover-link"><i class="far fa-star"></i></a>
+        </span>
+      </div>
+
+      <form class="tweet-form">
+        <div class="tweet-image">
+          <img class="profile-image" src="../images/profile-avatar.png" alt="profile-avatar" />
+        </div>
+        <div class="tweet-input">
+          <input type="text" placeholder="What's Happening?" />
+          <div class="tweet-buttons">
+            <div class="tweet-icons">
+              <a href="#" class="hover-link"><i class="far fa-image"></i></a>
+              <a href="#" class="hover-link"><i class="fas fa-poll"></i></a>
+              <a href="#" class="hover-link"><i class="far fa-smile-beam"></i></a>
+              <a href="#" class="hover-link"><i class="fas fa-calendar-day" title="Calendar"></i></a>
+            </div>
+            <button class="btn" disabled>Tweet</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- TWEETS -->
+      <div class="tweets">
+        <div class="tweet">
+          <div class="tweet-image">
+            <img class="profile-image" src="../images/tweet1-img.jpg" alt="Jane Doe" />
+          </div>
+          <div class="tweet-content">
+            <div class="latest-info">
+              <i class="fas fa-retweet"></i>
+              John Doe Retweeted
+            </div>
+            <header class="tweet-header">
+              <div class="author-info">
+                <a href="#" class="author-name">Jane Doe</a>
+                <span class="author-tag">@JaneDoedev</span>
+                <span class="author-time">. 9m</span>
+              </div>
+              <div class="dropdown">
+                <a class="hover-link" href="#">
+                  <i class="fas fa-angle-down"></i>
+                </a>
+              </div>
+            </header>
+            <div class="tweet-body">
+              <p>I'm From today, I am planning to just give a minimal tweet of what I learnt or read or understood. That could be, me reading an article or a section in book, understanding an entity in life, but EoD sharing it anyway.</p>
+            </div>
+            <footer class="tweet-footer">
+              <a href="#" class="comment">
+                <span><i class="far fa-comment"></i></span> 50
+              </a>
+              <a href="#" class="retweet">
+                <span><i class="fas fa-retweet"></i></span> 101
+              </a>
+              <a href="#" class="like">
+                <span><i class="fas fa-heart"></i></span> 45
+              </a>
+              <a href="#" class="share">
+                <span><i class="fas fa-share-square"></i></span>
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <div class="tweet hasthread">
+          <div class="tweet-image">
+            <img class="profile-image" src="../images/tweet2-img.jpg" alt="Jeff Bezos" />
+          </div>
+          <div class="tweet-content">
+            <div class="latest-info">
+              <i class="fas fa-heart"></i>
+              John Doe Liked
+            </div>
+            <header class="tweet-header">
+              <div class="author-info">
+                <a href="#" class="author-name">Jeff Bezos</a>
+                <span class="author-tag">@JeffBezos</span>
+                <span class="author-time">. 15m</span>
+              </div>
+              <div class="dropdown">
+                <a class="hover-link" href="#">
+                  <i class="fas fa-angle-down"></i>
+                </a>
+              </div>
+            </header>
+            <div class="tweet-body">
+              <p>Staying without thinking about any things isn't easy at all. Been trying to put mind to ease and finding it very hard. 
+
+                It came in handy when I was 10yrs old or something!
+                
+                "Important realities are often the ones that are hardest to see and talk about."</p>
+            </div>
+            <footer class="tweet-footer">
+              <a href="#" class="comment">
+                <span><i class="far fa-comment"></i></span> 4
+              </a>
+              <a href="#" class="retweet">
+                <span><i class="fas fa-retweet"></i></span> 47
+              </a>
+              <a href="#" class="like">
+                <span><i class="fas fa-heart"></i></span> 142
+              </a>
+              <a href="#" class="share">
+                <span><i class="fas fa-share-square"></i></span>
+              </a>
+            </footer>
+          </div>
+        </div>
+        <div class="tweet thread">
+          <div class="tweet-image">
+            <img class="profile-image" src="../images/tweet2-img.jpg" alt="Jeff Bezos" />
+          </div>
+          <div class="tweet-content">
+            <a href="#">Show this thread</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ** RiGHT SIDEBAR ** -->
+    <aside class="sidebar">
+      <form class="search-form">
+        <input type="search" placeholder="Search Twitter" />
+      </form>
+
+      <div class="whats-happening">
+        <h4>What's Happening</h4>
+        <div class="happening">
+          <div class="happening-left">
+            <div class="meta">
+              US news . 2 hours ago
+            </div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+          <div class="happening-right">
+            <div class="happening-image">
+              <img src="../images/sidebar1-img.jpg" alt="Kitten">
+            </div>
+          </div>
+        </div>
+
+        <div class="happening">
+          <div class="happening-left">
+            <div class="meta">
+              US news . 2 hours ago
+            </div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit ipsum dolor sit
+            </div>
+            <div class="sub-meta">
+              4,320 Tweets
+            </div>
+          </div>
+          <div class="happening-right">
+            <div class="happening-more">
+              <a class="hover-link" href="#">
+                <i class="fas fa-angle-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="happening-footer">
+          <a href="#">
+            Show more
+          </a>
+        </footer>
+
+      </div>
+
+      <div class="whats-happening">
+        <h4>Who to Follow</h4>
+        <div class="happening">
+          <div class="happening-left">
+            <div class="happening-profile">
+              <img class="profile-image" src="../images/sidebar2-img.jpg" alt="Alex" />
+              <div class="profile-name">
+                <a href="#">James Anderson</a>
+                <a href="#">@james007</a>
+              </div>
+            </div>
+          </div>
+          <div class="happening-right">
+            <button class="btn btn--follow">Follow</button>
+          </div>
+        </div>
+
+        <div class="happening">
+          <div class="happening-left">
+            <div class="happening-profile">
+              <img class="profile-image" src="../images/sidebar3-img.jpg" alt="James" />
+              <div class="profile-name">
+                <a href="#">Tom Cruise</a>
+                <a href="#">@tommyguy</a>
+              </div>
+            </div>
+          </div>
+          <div class="happening-right">
+            <button class="btn btn--follow">Follow</button>
+          </div>
+        </div>
+
+        <footer class="happening-footer">
+          <a href="#">
+            Show more
+          </a>
+        </footer>
+      </div>
+
+      <footer class="sidebar__footer">
+        <div>
+          <a href="#">Terms</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
+          <a href="#">Ads info</a>
+          <a href="#">More <i class="fas fa-angle-down"></i></a>
+        </div>
+        <div>
+          &copy 2020 Twitter, Inc
+        </div>
+      </footer>
+
+    </aside>
+    </main>
+
+    <div id="popup" class="popup">
+      <header>
+        <img class="profile-image profile-image--nohover" src="https://placebeard.it/320x320?tweet2dsfas"
+          alt="Jesse James Burton" />
+        <div>
+          <button class="btn btn--follow following">Following</button>
+        </div>
+      </header>
+      <div class="popup__text">
+        <div class="popup__name"><a href="#">John Doe</a></div>
+        <div class="popup__meta">
+          <a href="#">@JoeDoe</a>
+          <span class="follows">Follows you</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, a sunt.</p>
+        <div class="popup__following">
+          <div>
+            <strong>1,234</strong>
+            Following
+          </div>
+          <div>
+            <strong>1,432</strong>
+            Followers
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Not followed by anyone you're following</p>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</body>
+
+</html>

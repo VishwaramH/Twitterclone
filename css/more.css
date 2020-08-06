@@ -1,0 +1,38 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  height: 100vh;
+}
+
+.more-list li{
+  cursor: pointer;
+  list-style: none;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.active {
+  color: var(--blue);
+}

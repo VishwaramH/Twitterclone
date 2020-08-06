@@ -1,0 +1,60 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+.rorw {
+  margin: 0;
+}
+
+.main .head h1 {
+ padding: 1rem;
+}
+
+.main .head .fa-cog {
+  color: var(--blue);
+  float: right;
+  margin: .5rem 1.5rem;
+}
+
+.noti-nav{
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 2px solid var(--greytext);
+}
+
+.noti-nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color:var(--black);
+}
+
+.all {
+  padding: 0 13rem;
+  background-color: var(--blued);
+}
+
+.all a {
+  color: var(--white);
+}
+
+.mentions {
+  padding: 0 10rem;
+}

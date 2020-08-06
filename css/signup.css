@@ -1,0 +1,151 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.blue-section {
+  background-image: url("../images/signup-bg.jpg");
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.follow, .hear, .convo {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.signup-text {
+  margin-top: 7rem;
+}
+
+.icon a {
+  color: var(--blue);
+  font-size: 4rem;
+}
+
+.signup-heading {
+  margin-top: 2rem;
+}
+
+.signup-heading h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.buttons {
+  margin-top: 5rem;
+}
+
+.buttons h3 {
+  font-weight: 700;
+}
+
+.signup-btn {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 3rem;
+  background-color: var(--blue);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: white;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 3rem;
+}
+
+.signup-btn:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: var(--blues);
+  color: var(--blue);
+}
+
+@media screen and (max-width:360px) {
+  .blue-section, .signup-text {
+    height: max-content;
+  }
+}
+
+#signupModal {
+  font-size: 1.8rem;
+}
+
+#loginModal {
+  font-size: 1.8rem;
+}
+
+.modal-icon-head {
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: none;
+}
+
+.close {
+  font-size: 3rem;
+}
+
+.create-btn {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: var(--blue);
+  border-radius: 1.5rem;
+  padding: .5rem 3rem;
+}
+
+.create-btn:hover {
+  color: white;
+  opacity: 0.9;
+}
+
+.footer {
+  margin-bottom: 0;
+}
+
+.footer li{
+  display: inline;
+  font-size: 1.4rem;
+  padding: .5rem;
+}

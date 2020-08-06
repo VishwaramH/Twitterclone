@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Signup</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="./css/signup.css" rel="stylesheet">
+</head>
+<body>
+  <div class="row">
+    <div class="col-12 col-md-6 blue-section">
+      <div class="blue-text">
+        <div class="follow">
+          <i class="fas fa-search"></i><span> Follow your interests.</span>
+        </div>
+        <div class="hear">
+          <i class="fas fa-user-friends"></i><span> Hear what people are talking about.</span>
+        </div>
+        <div class="convo">
+          <i class="far fa-comment"></i><span> Join the conversation.</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 offset-md-1 col-md-4 offset-md-1 form-section">
+      <div class="signup-text">
+        <div class="icon">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="signup-heading">
+          <h1>See what’s happening in the world right now</h1>
+        </div>
+        <div class="buttons">
+          <h3>Join Twitter today</h3>
+          <button type="button" class="btn btn-lg btn-block signup-btn" data-toggle="modal" data-target="#signupModal">Sign up</button>
+          <button type="button" class="btn btn-lg btn-block login-btn" data-toggle="modal" data-target="#loginModal">Log in</button>
+        </div>
+    </div>
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header modal-icon-head">
+            <h1><i class="fab fa-twitter modal-icon"></i></h1>
+          </div>
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">Create your account</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name" class="col-form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email" class="col-form-label">Email id</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="phone" class="col-form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+              <div class="form-group">
+                <label for="dob" class="col-form-label">Date of Birth</label>
+                <input type="date" class="form-control" id="dob">
+              </div>
+              <div class="form-group">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+              <div class="form-group">
+                <label for="cpassword" class="col-form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="cpassword">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="./templates/home.html"><button type="button" class="btn create-btn">Create Account</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header modal-icon-head">
+            <h1><i class="fab fa-twitter modal-icon"></i></h1>
+          </div>
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">Login to your account</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="email" class="col-form-label">Email id</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="./templates/home.html"><button type="button" class="btn create-btn">Login</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="footer">
+      <div class="row justify-content-center">
+        <ul class="list-unstyled">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Ads info</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Status</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Businesses</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">© 2020 Twitter, Inc.</a></li>
+        </ul>
+      </div>
+  </footer>
+  <!-- JS plugins -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</body>
+
+</html>

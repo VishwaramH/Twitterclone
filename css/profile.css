@@ -1,0 +1,74 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.name span {
+  padding-right: 1rem;
+  font-size: 1.6rem;
+}
+
+.profile-items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+
+.profile-items li {
+  padding: .5rem 3rem;
+}
+
+.profile-items li a{
+  font-size: 2rem;
+}
+
+.profile-items .active {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.profile-items .active a {
+  color: white;
+}
+
+.profile-items li:hover {
+  background-color: var(--blues);
+}
+
+
+.profile-nav {
+  border-bottom: 2px solid var(--greys);
+}
+
+.btn-setup {
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+  color: var(--blued);
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+@media screen and (max-width:370px) {
+  .pro-pic {
+    height: 110px;
+    width: 40%;
+  }
+}

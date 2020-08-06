@@ -1,0 +1,138 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blues: #E8F5FE;
+  --blued: rgb(26, 145, 218);
+  --blue: #1DA1F2;
+  --greytext: rgb(116, 116, 117);
+  --greys: rgb(236, 236, 236);
+  --greyhover: rgb(242, 246, 248);
+  --grey: rgb(244, 248, 250);
+  --green: #31c674;
+  --greens: #e7f9ef;
+  --red: #e0245e;
+  --reds: #fae6ec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.row {
+  margin: 0;
+}
+
+.explore-search {
+  width: 90%;
+  margin: 1rem 0;
+  background-color: var(--grey);
+  color: var(--greytext);
+  padding: .8rem;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+}
+
+.explore-search:focus {
+  background-color: white;
+  border: 1px solid var(--blue);
+}
+
+.main {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.icon-search {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 2rem;
+  right: 9rem;
+  color: var(--blue);
+}
+
+.fa-cog {
+  color: var(--blue);
+  font-size: 1.6rem;
+  float: right;
+  margin-top: 2rem;
+}
+
+.explore-items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+
+.explore-items li {
+  padding: 1rem;
+}
+
+.explore-items li a {
+  color: var(--greytext);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.explore-items li:hover {
+  background-color: var(--blues);
+}
+
+.explore-items li a:hover {
+  color: var(--blue);
+}
+
+.explore-nav .active {
+  background-color: var(--blue);
+}
+
+.explore-nav .active a{
+  color: var(--white);
+}
+
+.for-you-one {
+  border-bottom: 1px solid var(--greys);
+  padding: 1.5rem;
+}
+
+.for-you-one a{
+  color: var(--black);
+  text-decoration: none;
+}
+
+.for-you-one:hover, .for-you-two:hover {
+  background-color: var(--grey);
+}
+
+.for-you-two {
+  border-bottom: 1px solid var(--greys);
+  padding: 1.5rem;
+}
+
+.for-you-two a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.for-you-two-img {
+  float: right;
+}
+
+.for-you-three {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--greys);
+}
+
+.for-you-three:hover {
+  background-color: var(--grey);
+}
+
+.for-you-three a {
+  color: var(--black);
+}
+
+.for-you-three a:hover {
+  text-decoration: none;
+}
